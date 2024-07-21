@@ -1,0 +1,20 @@
+{
+    "type": "object",
+    "properties": {
+      "first_name": { "type": "string", "title": "First Name" },
+      "last_name": { "type": "string", "title": "Last Name" },
+      "email": { "type": "string", "title": "Email" },
+      "country_of_citizenship": {
+        "type": "string",
+        "title": "Country of Citizenship",
+        "enum": ["United States", "Canada", "Mexico", "India", "China", "United Kingdom", "Germany", "France", "Japan", "Australia"]
+      },
+      "linkedin_url": { "type": "string", "title": "LinkedIn URL" },
+      "visas_of_interest": { "type": "string", "title": "Visas of Interest" },
+      "how_can_we_help_you": { "type": "string", "title": "How Can We Help You" },
+      "submission_date": { "type": "string", "title": "Submission Date" },
+      "status": { "type": "string", "title": "Status" }
+    },
+    "required": ["first_name", "last_name", "email"]
+  }
+  

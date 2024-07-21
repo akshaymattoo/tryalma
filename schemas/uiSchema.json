@@ -1,0 +1,16 @@
+{
+    "type": "Group",
+    "label": "My Group!",
+    "elements": [
+      { "type": "Control", "scope": "#/properties/first_name" },
+      { "type": "Control", "scope": "#/properties/last_name" },
+      { "type": "Control", "scope": "#/properties/email" },
+      { "type": "Control", "scope": "#/properties/country_of_citizenship", "label": "Country of Citizenship" },
+      { "type": "Control", "scope": "#/properties/linkedin_url" },
+      { "type": "Control", "scope": "#/properties/visas_of_interest" },
+      { "type": "Control", "scope": "#/properties/how_can_we_help_you" },
+      { "type": "Control", "scope": "#/properties/submission_date" },
+      { "type": "Control", "scope": "#/properties/status" }
+    ]
+  }
+  
